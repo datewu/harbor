@@ -1,4 +1,4 @@
-package client
+package harbor
 
 import (
 	"strconv"
@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-var testEp = NewEndpoint("https://harbor.your-com.change.me.com", "admin", "pwd", 5*time.Second)
+var testEp = NewEndpoint("https://harbor.chengeme.com", "admin", "pwd", 5*time.Second)
 
 func TestCachedCookie(t *testing.T) {
 	pre := "sid="
